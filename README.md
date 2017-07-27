@@ -89,7 +89,7 @@ const HelloWhen = () =>
   </When>
 
 /**
- * 条件成立，加载GoodsList 
+ * 条件成立，加载GoodsList 
  */
 const GoodsList = () =>
   <When test={goodsList.isNotEmpty()}>
