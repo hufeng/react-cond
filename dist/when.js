@@ -27,7 +27,6 @@ var When = (function (_super) {
     When.prototype.render = function () {
         var _a = this.props, test = _a.test, children = _a.children;
         var count = react_1.default.Children.count(children);
-        var Children = react_1.default.Children.toArray(children);
         //如果没有子组件，直接返回空
         if (count == 0) {
             return null;
@@ -36,6 +35,7 @@ var When = (function (_super) {
          * 如果判断条件成功，返回第一个children
          * 如果判断条件失败，如果有第二个chidlren返回，否则返回null
          */
+        var Children = react_1.default.Children.toArray(children);
         if (test) {
             return Children[0];
         }
