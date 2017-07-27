@@ -27,7 +27,6 @@ export default class When extends React.Component {
   render() {
     const { test, children } = this.props;
     const count = React.Children.count(children);
-    const Children = React.Children.toArray(children);
 
     //如果没有子组件，直接返回空
     if (count == 0) {
@@ -38,6 +37,7 @@ export default class When extends React.Component {
      * 如果判断条件成功，返回第一个children
      * 如果判断条件失败，如果有第二个chidlren返回，否则返回null
      */
+    const Children = React.Children.toArray(children);
     if (test) {
       return Children[0] as JSX.Element;
     } else {
