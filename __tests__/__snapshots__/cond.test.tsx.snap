@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cond test suite cond case and default 1`] = `
+<div>
+  I am match5
+</div>
+`;
+
+exports[`cond test suite cond case and default 2`] = `
+<div>
+  I am default
+</div>
+`;
+
+exports[`cond test suite cond multiple test  1`] = `
+<div>
+  I am match5
+</div>
+`;
+
+exports[`cond test suite cond no children 1`] = `null`;
+
+exports[`cond test suite cond one chidld test is false 1`] = `null`;
+
+exports[`cond test suite cond one children test is true 1`] = `
+<div>
+  I am match
+</div>
+`;
+
+exports[`cond test suite cond one default 1`] = `
+<div>
+  I Am Default
+</div>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when test suite when false 1`] = `null`;
+
+exports[`when test suite when false has two childrens 1`] = `
+<div>
+  Oop, I am failed
+</div>
+`;
+
+exports[`when test suite when no children 1`] = `null`;
+
+exports[`when test suite when true 1`] = `
+<div>
+  Hello I am Success
+</div>
+`;
+
+exports[`when test suite when true has two childrens 1`] = `
+<div>
+  hello I am Success
+</div>
+`;

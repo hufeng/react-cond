@@ -1,0 +1,38 @@
+{
+  "name": "react-cond",
+  "version": "1.0.0",
+  "description": "react condition container",
+  "main": "index.js",
+  "typings": "./dist/index.d.ts",
+  "repository": "https://github.com/hufeng/react-cond.git",
+  "author": "hufeng <hufeng@qianmi.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "npx jest --verbose",
+    "compile": "npx tsc"
+  },
+  "files": ["package.json", "./dist", "README.md"],
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+    "moduleFileExtensions": ["ts", "tsx", "js", "json", "jsx"]
+  },
+  "devDependencies": {
+    "@types/jest": "^20.0.5",
+    "@types/react-test-renderer": "^15.5.2",
+    "babel-jest": "^20.0.3",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^20.0.4",
+    "react-test-renderer": "^15.6.1",
+    "ts-jest": "^20.0.7",
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "@types/node": "^8.0.17",
+    "@types/react": "^15.0.39",
+    "react": "^15.6.1"
+  }
+}
