@@ -3,7 +3,9 @@ react condition container
 
 # Why?
 还在为在react中不能很好的表达展示逻辑而苦恼吗？
+
 本质原因是因为JSX就是要让计算能力受限，逼着我们不在render中做大量的运算
+
 保持render的简单可预测。但是实际的场景中，我们是有这方面的需求。
 
 ```javascript
@@ -71,7 +73,7 @@ if (a) {
 
 容器决定了函数的行为和能力。
 
-来来来，Talk is cheap!!!
+来来来，Talk is cheap!!!
 
 ```javascript
 /*
